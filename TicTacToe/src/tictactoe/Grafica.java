@@ -9,6 +9,8 @@ package tictactoe;
 
 public class Grafica extends javax.swing.JFrame {
 
+    
+    tablero miTablero=new tablero(); 
      public int turno;
     
     public Grafica() {
@@ -158,6 +160,7 @@ public class Grafica extends javax.swing.JFrame {
             
             Boton1.setText("X");
             
+            miTablero.ficha[0][0]="X";
             turno=1;
          
         }else {
