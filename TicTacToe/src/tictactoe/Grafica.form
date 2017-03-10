@@ -91,18 +91,39 @@
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton3">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton3MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton4">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton4MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton5">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton5MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton6">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton6MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton7">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton7MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton8">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton8MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton9">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton9MouseClicked"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

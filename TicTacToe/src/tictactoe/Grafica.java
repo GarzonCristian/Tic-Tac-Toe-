@@ -55,6 +55,48 @@ public class Grafica extends javax.swing.JFrame {
             }
         });
 
+        Boton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton3MouseClicked(evt);
+            }
+        });
+
+        Boton4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton4MouseClicked(evt);
+            }
+        });
+
+        Boton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton5MouseClicked(evt);
+            }
+        });
+
+        Boton6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton6MouseClicked(evt);
+            }
+        });
+
+        Boton7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton7MouseClicked(evt);
+            }
+        });
+
+        Boton8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton8MouseClicked(evt);
+            }
+        });
+
+        Boton9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Boton9MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -112,7 +154,7 @@ public class Grafica extends javax.swing.JFrame {
 
     private void Boton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton1MouseClicked
         
-        if (turno=0) {
+        if (turno==0) {
             
             Boton1.setText("X");
             
@@ -127,7 +169,7 @@ public class Grafica extends javax.swing.JFrame {
 
     private void Boton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton2MouseClicked
        
-        if (turno=0) {
+        if (turno==0) {
             
             Boton2.setText("X");
             
@@ -139,6 +181,106 @@ public class Grafica extends javax.swing.JFrame {
             turno=0;
         }
     }//GEN-LAST:event_Boton2MouseClicked
+
+    private void Boton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton3MouseClicked
+       
+        if (turno==0) {
+            
+            Boton3.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton3.setText("O");
+            
+            turno=0;
+        }
+    }//GEN-LAST:event_Boton3MouseClicked
+
+    private void Boton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton4MouseClicked
+       
+        if (turno==0) {
+            
+            Boton4.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton4.setText("O");
+            
+            turno=0;
+        }
+    }//GEN-LAST:event_Boton4MouseClicked
+
+    private void Boton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton5MouseClicked
+        if (turno==0) {
+            
+            Boton5.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton5.setText("O");
+            
+            turno=0;
+        }
+    }//GEN-LAST:event_Boton5MouseClicked
+
+    private void Boton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton6MouseClicked
+        if (turno==0) {
+            
+            Boton6.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton6.setText("O");
+            
+            turno=0;
+        }
+    }//GEN-LAST:event_Boton6MouseClicked
+
+    private void Boton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton7MouseClicked
+        if (turno==0) {
+            
+            Boton7.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton7.setText("O");
+            
+            turno=0;
+        }
+    }//GEN-LAST:event_Boton7MouseClicked
+
+    private void Boton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton8MouseClicked
+if (turno==0) {
+            
+            Boton8.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton8.setText("O");
+            
+            turno=0;
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_Boton8MouseClicked
+
+    private void Boton9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton9MouseClicked
+        if (turno==0) {
+            
+            Boton9.setText("X");
+            
+            turno=1;
+         
+        }else {
+            Boton9.setText("O");
+            
+            turno=0;
+        }
+    }//GEN-LAST:event_Boton9MouseClicked
 
     /**
      * @param args the command line arguments
@@ -187,4 +329,10 @@ public class Grafica extends javax.swing.JFrame {
     private javax.swing.JButton Boton8;
     private javax.swing.JButton Boton9;
     // End of variables declaration//GEN-END:variables
+
+    void SetVisible(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    
 }
